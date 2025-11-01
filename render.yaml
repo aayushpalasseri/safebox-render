@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: safebox-render
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node api/createToken.js"
